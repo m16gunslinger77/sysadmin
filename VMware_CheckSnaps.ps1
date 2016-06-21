@@ -20,7 +20,7 @@ $header | Out-File -FilePath $path
 $break1 | Out-File -noclobber -append -filepath $path
 $break1 | Out-File -noclobber -append -filepath $path
 
-$servers = "AEX01", "DellOME", "Exchange90", "file90b", "file90c", "file90d", "file90e"
+$servers = "SERVERNAMES HERE"
 
 $servers | ForEach-Object{
 
